@@ -2,14 +2,14 @@
 //number of circles we have in the game
 var numCircles = 6;
 //The colour variable should be an array that contains as many random RGB colours as there are circles. 
-var colours = []
+var colours = [];
 //This pickedColor is the RGB color we are trying to guess (string)
 var pickedColor;
 //This is the default colour of the game. 
-let defaultColour="#582c99"
+let defaultColour = "#582c99"
 
 //Grab all appropriate elements from the HTML.
-var circles = document.getElementByClassName('circle')
+var circles = document.getElementsByClassName('circle')
 var colourToGuess = document.getElementById('colour-to-guess')
 var resultMessage = document.getElementById('result-message')
 var banner = document.querySelector('h1')
